@@ -1,0 +1,54 @@
+/* Add some texture to the sidebar */
+
+#sidebar .well {
+    background-image: url('concrete-wall.png');
+}
+
+/* A dark horizontal rule shows up better. */
+
+hr {
+    border-top-color: #3e3f3a;
+}
+
+/* I don't want the article metadata in a well, I want it to
+   blend in with the page background. */
+
+article .well {
+    background-color: #ffffff;
+}
+
+/* Tighten up spacing of list items in sidebar... */
+
+#sidebar .list-group-item {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* ...but we still need a gap between list groups. */
+
+#sidebar .list-group-item > .list-group {
+    margin-bottom: 10px;
+}
+
+/* Tag cloud should be indented like everythign else. */
+
+.tagcloud {
+    margin-left: 24px;
+}
+
+div.output_area {
+    padding: 0;
+    page-break-inside: avoid;
+    display:-webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-align: stretch;
+    display:-moz-box;
+    -moz-box-orient: horizontal;
+    -moz-box-align: stretch;
+    display: box;
+    box-orient: horizontal;
+    box-align: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch
+}
