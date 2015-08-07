@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Matt Craig'
-SITENAME = u'This, for now...'
+SITENAME = u'Placeholder'
 SITEURL = 'http://mwcraig.github.io'
 
 PATH = 'content'
@@ -34,11 +34,13 @@ DISPLAY_CATEGORIES_ON_MENU = False
 
 DEFAULT_PAGINATION = 10
 
-PLUGIN_PATHS = ['../pelican-plugins']
+PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['liquid_tags.notebook', 'tag_cloud', 'tipue_search']
-EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
 
-THEME = "../pelican-themes/pelican-bootstrap3"
+# cruft for manually including notebooks
+#EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
+
+THEME = "pelican-bootstrap3"
 SITELOGO = None
 SITETAGLINE = "Moo like a cow"
 
@@ -50,7 +52,7 @@ DISPLAY_ARTICLE_INFO_ON_INDEX = True
 DISPLAY_TAGS_ON_SIDEBAR = True
 DISPLAY_TAGS_INLINE = True
 
-# BANNER = 'static/BeartoothPass-crop.jpg'
+BANNER = 'static/BeartoothPass-crop_mini.jpg'
 # BANNER_SUBTITLE = 'This is my subtitle'
 
 CUSTOM_CSS = 'static/custom.css'
@@ -64,7 +66,7 @@ STATIC_PATHS = ['images', 'extra']
 # Tell Pelican to change the path to 'static/custom.css' in the output dir
 EXTRA_PATH_METADATA = {
     'extra/custom.css': {'path': 'static/custom.css'},
-    'extra/BeartoothPass-crop.jpg': {'path': 'static/BeartoothPass-crop.jpg'},
+    'extra/BeartoothPass-crop_mini.jpg': {'path': 'static/BeartoothPass-crop_mini.jpg'},
     'extra/concrete-wall.png': {'path': 'static/concrete-wall.png'}
 }
 
