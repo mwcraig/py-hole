@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Matt Craig'
-SITENAME = u'Placeholder'
+SITENAME = u'Py hole'
 SITEURL = 'http://mwcraig.github.io'
 
 PATH = 'content'
@@ -42,7 +42,7 @@ PLUGINS = ['liquid_tags.notebook', 'tag_cloud', 'tipue_search']
 
 THEME = "pelican-bootstrap3"
 SITELOGO = None
-SITETAGLINE = "Moo like a cow"
+SITETAGLINE = "It's best to keep it shut"
 
 # pelican-bootstrap3
 BOOTSTRAP_THEME = 'sandstone'
@@ -53,7 +53,7 @@ DISPLAY_TAGS_ON_SIDEBAR = True
 DISPLAY_TAGS_INLINE = True
 
 BANNER = 'static/BeartoothPass-crop_mini.jpg'
-# BANNER_SUBTITLE = 'This is my subtitle'
+BANNER_SUBTITLE = "It's best to keep it shut"
 
 CUSTOM_CSS = 'static/custom.css'
 
