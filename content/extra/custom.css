@@ -4,10 +4,31 @@
     background-image: url('concrete-wall.png');
 }
 
+/* Handle some colors all in the same place to try to keep colors consistent. */
+
+/* Color the navbar... */
+.navbar-default {
+    background-color: #322525;
+    border-color: #322525;
+}
+
 /* A dark horizontal rule shows up better. */
 
 hr {
-    border-top-color: #3e3f3a;
+    border-top-color: #322525;
+}
+
+/* Make the buttons match the rest of the theme */
+
+.label-default {
+    background-color: #322525;
+}
+
+/* And make the title background in the banner match */
+
+#banner .copy {
+    background-color: rgba(50, 37, 37, 0.7);
+    border-radius: 30px;
 }
 
 /* I don't want the article metadata in a well, I want it to
@@ -35,6 +56,9 @@ article .well {
 .tagcloud {
     margin-left: 24px;
 }
+
+/* Fix up the output area in IPython notebooks until fix is merged
+   in pelican-bootstrap3. */
 
 div.output_area {
     padding: 0;
