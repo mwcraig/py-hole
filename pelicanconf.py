@@ -52,7 +52,7 @@ DISPLAY_ARTICLE_INFO_ON_INDEX = True
 DISPLAY_TAGS_ON_SIDEBAR = True
 DISPLAY_TAGS_INLINE = True
 
-BANNER = 'static/BeartoothPass-crop_mini.jpg'
+BANNER = 'static/skinny-buttes.jpg'
 BANNER_SUBTITLE = "It's best to keep it shut"
 
 CUSTOM_CSS = 'static/custom.css'
@@ -66,8 +66,9 @@ STATIC_PATHS = ['images', 'extra']
 # Tell Pelican to change the path to 'static/custom.css' in the output dir
 EXTRA_PATH_METADATA = {
     'extra/custom.css': {'path': 'static/custom.css'},
-    'extra/BeartoothPass-crop_mini.jpg': {'path': 'static/BeartoothPass-crop_mini.jpg'},
-    'extra/concrete-wall.png': {'path': 'static/concrete-wall.png'}
+    'extra/skinny-buttes.jpg': {'path': 'static/skinny-buttes.jpg'},
+    'extra/concrete-wall.png': {'path': 'static/concrete-wall.png'},
+    'extra/bison-mine.png': {'path': 'favicon.ico'}
 }
 
 # ABOUT_ME = "Daughter of the day: Emma"
