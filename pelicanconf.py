@@ -46,6 +46,7 @@ SITETAGLINE = "It's best to keep it shut"
 
 # pelican-bootstrap3
 BOOTSTRAP_THEME = 'sandstone'
+FAVICON = 'favicon.png'
 
 DISPLAY_ARTICLE_INFO_ON_INDEX = True
 
@@ -68,7 +69,7 @@ EXTRA_PATH_METADATA = {
     'extra/custom.css': {'path': 'static/custom.css'},
     'extra/skinny-buttes.jpg': {'path': 'static/skinny-buttes.jpg'},
     'extra/concrete-wall.png': {'path': 'static/concrete-wall.png'},
-    'extra/bison-mine.png': {'path': 'favicon.ico'}
+    'extra/bison-mine.png': {'path': 'favicon.png'}
 }
 
 # ABOUT_ME = "Daughter of the day: Emma"
@@ -94,6 +95,7 @@ BOOTSTRAP_NAVBAR_INVERSE = False
 #     ('Themes', '/themes/'),
 #     ('About', '/about/'),
 # )
+
 # For chameleon
 # AUTHORS = {}
 
