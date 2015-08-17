@@ -47,7 +47,7 @@ SITETAGLINE = "It's best to keep it shut"
 # pelican-bootstrap3
 BOOTSTRAP_THEME = 'sandstone'
 FAVICON = 'favicon.png'
-DISQUS_SITENAME = 'pyhole.disqus.com'
+DISQUS_SITENAME = 'pyhole'
 
 DISPLAY_ARTICLE_INFO_ON_INDEX = True
 
